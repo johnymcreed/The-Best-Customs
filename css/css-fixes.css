@@ -162,8 +162,7 @@ code {
 }
 
 .margininated-left {
-  margin-left: 20rem;
-  margin-top: -3rem;
+  margin-top: 1rem;
   color: white;
   background-color: hsla(38, 7%, 20%, 0.86);
   border: 1px solid white;
