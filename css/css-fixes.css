@@ -200,7 +200,9 @@ code {
 
 @media only screen and (max-width: 1500) {
     .margininated-left {
-        width: 35rem   
+        width: 35rem;
+        font-size; 17px;
+            
     }
 }
 
@@ -210,7 +212,8 @@ code {
     }
     
     .margininated-left {
-        width: 27rem   
+        width: 27rem;
+        font-size: 14px;
     }
     
     #if-smaller {
