@@ -16,3 +16,14 @@
                return false;
             }
          }
+
+
+ (function( d ) {
+   'use strict';
+   var element = d.getElementById( 'cookies-popup' );
+       element.classList.add( localStorage.getItem( 'cookies-btn' ) );
+       element.addEventListener( 'click',
+         function(){
+                     localStorage.setItem( 'cookies-btn', 'hide' );
+                   }, false);
+}( document ));                                                      
