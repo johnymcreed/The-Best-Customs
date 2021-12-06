@@ -1,0 +1,102 @@
+/* Fixes For Bootwrapper */
+html,
+body {
+    background-color: #1e1f1e !important;
+    color: white !important;
+}
+
+::selection {
+    background-color: transparent;
+    color: hsla(41, 98%, 56%, 0.84);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1e1f1e;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.spaced-top {
+    margin-top: 7rem;
+}
+
+.container {
+    background-color: transparent;
+}
+
+.title {
+    margin-top: -18rem;
+} img {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.image-move {
+    width: 20%;
+    height: 20%;
+    margin-right: 0rem;
+    margin-top: -9rem;
+    opacity: 53;
+} #opaqe {
+    opacity: .30;
+} #if-smaller {
+    font-size: 60px;
+}
+
+.information {
+    margin-top: 20rem;
+} #blurred-img {
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+    margin-top: -9rem;
+    opacity: .3;
+} .QAN {
+    margin-top: 2rem;
+    margin-left: 2rem;
+} .downloading-info {
+    margin-top: 1rem;
+} .custom-frame {
+    margin-left: 3rem;
+    border-radius: 7px;
+    background-color: hsla(0, 5%, 11%, 0.81);
+}
+
+.space-be-end {
+    margin-top: 3rem;
+}
+
+#shrink-2 {
+    margin-left: 4.5rem; 
+    color: grey;
+}
+
+@media only screen and (max-width: 1000px) {
+    .image-move {
+        display: none;
+    }
+    
+    #if-smaller {
+        font-size: 43px;
+    }
+    
+    #shrink-2 {
+        font-size: 13.5px;
+    }
+}
