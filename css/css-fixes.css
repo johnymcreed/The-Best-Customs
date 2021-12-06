@@ -120,7 +120,7 @@ body {
 
 .dropdown {
   position: absolute;
-  margin-left: -5px;
+  margin-left: -6px;
   display: inline-block;
   border-left: transparent;
   background-color: hsla(38, 7%, 20%, 0.86);
