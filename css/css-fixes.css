@@ -161,6 +161,17 @@ code {
   display: block;
 }
 
+.margininated-left {
+  margin-left: 20rem;
+  margin-top: -3rem;
+  color: white;
+  background-color: hsla(38, 7%, 20%, 0.86);
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 1rem;
+  width: 40rem
+}
+
 @media only screen and (max-width: 1000px) {
     .image-move {
         display: none;
