@@ -198,6 +198,11 @@ code {
   border-color: grey;
 }
 
+@media only screen and (max-width: 1500) {
+    .margininated-left {
+        width: 35rem   
+    }
+}
 
 @media only screen and (max-width: 1000px) {
     .image-move {
