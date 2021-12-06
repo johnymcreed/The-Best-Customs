@@ -11,7 +11,7 @@ body {
 }
 
 code {
-   color: #592021;   
+   color: #592021 !important;   
 }
 
 /* width */
