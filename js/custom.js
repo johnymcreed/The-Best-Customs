@@ -18,12 +18,12 @@
          }
 
 
- (function( d ) {
+(function( d ) {
    'use strict';
-   var element = d.getElementById( 'cookies-popup' );
-       element.classList.add( localStorage.getItem( 'cookies-btn' ) );
+   var element = d.getElementById( 'cookie-banner' );
+       element.classList.add( localStorage.getItem( 'cookie-btn' ) );
        element.addEventListener( 'click',
          function(){
-                     localStorage.setItem( 'cookies-btn', 'hide' );
+                     localStorage.setItem( 'cookie-banner', 'hide' );
                    }, false);
-}( document ));                                                      
+}( document )); 
