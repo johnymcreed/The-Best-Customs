@@ -176,7 +176,7 @@ code {
   border: 1px solid white;
   background-color: hsla(38, 7%, 20%, 0.86) !important;
   width: 65rem;
-  position:absolute;
+  position: fixed;
   bottom:1rem;
   right:1rem;
 }
