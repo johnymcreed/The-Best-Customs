@@ -171,6 +171,30 @@ code {
   width: 77rem
 }
 
+#cookies-popup {
+  color: white;
+  border: 1px solid white;
+  background-color: hsla(38, 7%, 20%, 0.86) !important;
+  width: 65rem;
+  position:absolute;
+  bottom:1rem;
+  right:1rem;
+}
+
+#cookie-btn {
+  background-color: hsla(38, 7%, 20%, 0.86);
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 1px;
+  float:right;
+  width: 5rem;
+} #cookie-btn:hover {
+  cursor: pointer;
+  border-color: grey;
+}
+
+
 @media only screen and (max-width: 1000px) {
     .image-move {
         display: none;
