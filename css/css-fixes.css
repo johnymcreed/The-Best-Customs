@@ -10,6 +10,10 @@ body {
     color: hsla(41, 98%, 56%, 0.84);
 }
 
+ .hide {
+ 	display: none;
+ }  
+
 code {
    color: hsla(41, 98%, 56%, 0.84) !important;   
 }
