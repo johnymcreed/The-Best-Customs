@@ -200,6 +200,10 @@ code {
         display: none;
     }
     
+    .margininated-left {
+        width: 45rem   
+    }
+    
     #if-smaller {
         font-size: 43px;
     }
