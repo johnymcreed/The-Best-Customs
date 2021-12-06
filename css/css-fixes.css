@@ -172,7 +172,7 @@ code {
   border: 1px solid white;
   border-radius: 4px;
   padding: 1rem;
-  width: 77rem
+  width: auto;
 }
 
 #cookies-popup {
@@ -198,22 +198,9 @@ code {
   border-color: grey;
 }
 
-@media only screen and (max-width: 1500) {
-    .margininated-left {
-        width: 35rem;
-        font-size; 17px;
-            
-    }
-}
-
 @media only screen and (max-width: 1000px) {
     .image-move {
         display: none;
-    }
-    
-    .margininated-left {
-        width: 67rem;
-        font-size: 14px;
     }
     
     #if-smaller {
